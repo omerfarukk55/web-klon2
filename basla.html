@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Freelancers & Find Freelance Jobs Online | Freelancer</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xFIzIXKMnyrYk.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xMIzIXKMnyrYk.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xEIzIXKMnyrYk.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xLIzIXKMnyrYk.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xHIzIXKMnyrYk.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xGIzIXKMnyrYk.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOkCnqEu92Fr1Mu51xIIzIXKMny.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+</head>
+<body>
+    <div class="page">
+        <div class="baslık">
+        <header class="headersection">
+            <img src="./images/freelancer-logo-old.svg" alt="logomuz">
+            
+             <a href=""style="color:#0e1724 ">How It Works</a>
+             <a href=""style="color:#0e1724 "> Browse Jobs</a>
+             <div id ="navigations">
+               
+                    <a href=""style="color:#0e1724 ">Log In</a>
+                    <a href=""style="color:#0e1724 ">Sign Up</a>
+                    <button type="button" id="buton1">Post a Project</button>
+               
+             </div>
+        </header></div>
+        <div class = "navbar">
+            <div id="navbar1">
+                <a href="">Find Jobs</a>
+                <a href="">Hire freelancers</a>
+                 <a href="">Get Ideas</a>
+                 <a href="">About</a>
+                 <a href="">Resources</a>
+            </div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <video autoplay loop  muted>
+            <source src="https://www.f-cdn.com/assets/main/en/assets/home/video/mobile-phone-v3.mp4" type="video/mp4">
+            <source src="https://www.f-cdn.com/assets/main/en/assets/home/video/nasa-v3.mp4"  type="video/mp4">
+            <source src="https://www.f-cdn.com/assets/main/en/assets/home/video/magazine-v3.mp4" type="video/mp4">
+            <source src="https://www.f-cdn.com/assets/main/en/assets/home/video/house-v3.mp4" type="video/mp4">
+        </video>   
+        <div class = "col-1">
+            <div class="contanir">
+               <h1>
+                Hire the best freelancers for any job, online.
+               </h1>  
+               <ul>
+                    <li>World's largest freelance marketplace</li>
+                    <li>Any job you can possibly think of</li>
+                    <li>Save up to 90% & get quotes for free</li>
+                    <li>Pay only when you're 100% happy</li>
+               </ul>
+               <div id="button">
+                <button id ="buton1">Hire a Freelancer</button>
+                <button id ="buton2">Earn Money Freelancing</button>
+               </div>
+            </div>
+        </div> 
+    </div>
+    <div class = "container1">
+    <div class="refer">
+        <img src="./images/Ekran görüntüsü 2022-11-08 101132.png" alt="">
+    </div>
+    <div class="content1">
+    <div class="baslık1">
+        <h1>Need something done?</h1>
+    </div>
+    
+    <div class="grid-container">
+        <div class="grid-item1">
+            <div class="flex1"style="display:flex; gap:12px; align-items:center; margin-bottom:32px;"
+             ><img src="./images/post-a-project1kısım.svg" alt="">
+                <div><h3 style="font-size:24px;">Post a job</h3>
+            </div>
+            </div>
+            <p>It’s free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.</p>
+    </div>
+        <div class="grid-item2">
+            <div class="flex2"style="display:flex; gap:12px; align-items:center; margin-bottom:32px;"
+             ><img src="./images/work2kısım.svg" alt="">
+                <div><h3 style="font-size:24px;">Choose freelancers</h3>
+            </div>
+            </div>
+            <p>No job is too big or too small. We've got freelancers for jobs of any size or budget, across 1800+ skills. No job is too complex. We can get it done!</p>
+        </div>
+        <div class="grid-item3">
+            <div class="flex3"style="display:flex; gap:12px; align-items:center; margin-bottom:32px;"
+             ><img src="./images/pay-safely3kısım.svg" alt="">
+                <div><h3 style="font-size:24px;">Pay safely</h3>
+            </div>
+            </div>
+            <p>Only pay for work when it has been completed and you're 100% satisfied with the quality using our milestone payment system.</p>
+        
+        </div>
+        <div class="grid-item4">
+            <div class="flex4"style="display:flex; gap:12px; align-items:center; margin-bottom:32px;"
+             ><img src="./images/about-me.4kısım.svg" alt="">
+                <div><h3 style="font-size:24px;">We’re here to help</h3>
+            </div>
+            </div>
+            <p>Our talented team of recruiters can help you find the best freelancer for the job and our technical co-pilots can even manage the project for you.</p>
+        </div>
+    </div>
+
+</div>
+    <div class="content2">
+    <div class="baslık2">
+        <h1>What's great about it?</h1>
+    </div>
+    
+    <div class="grid-container1">
+        <div class="grid-item1">
+            <div class="flex1"style="display:flex; gap:12px; align-items:center; margin-bottom:32px;"
+             ><img src="./images/pay-safely5kısım.svg" alt="">
+                <div><h3 style="font-size:24px;">Post a job</h3>
+            </div>
+            </div>
+            <p>Find professionals you can trust by browsing their samples of previous work and reading their profile reviews.</p>
+    </div>
+        <div class="grid-item2">
+            <div class="flex2"style="display:flex; gap:12px; align-items:center; margin-bottom:32px;"
+             ><img src="./images/bids-alt6kısım.svg" alt="">
+                <div><h3 style="font-size:24px;">Browse portfolios</h3>
+            </div>
+            </div>
+            <p>Receive obligation free quotes from our talented freelancers fast. 80% of projects get bid on within 60 seconds.</p>
+        </div>
+        <div class="grid-item3">
+            <div class="flex3"style="display:flex; gap:12px; align-items:center; margin-bottom:32px;"
+             ><img src="./images/rank-higher7kısım.svg" alt="">
+                <div><h3 style="font-size:24px;">Fast bids</h3>
+            </div>
+            </div>
+            <p>Freelancer.com has by far the largest pool of quality freelancers globally- over 50 million to choose from..</p>
+        
+        </div>
+        <div class="grid-item4">
+            <div class="flex4"style="display:flex; gap:12px; align-items:center; margin-bottom:32px;"
+             ><img src="./images/track-progress8kısım.svg" alt="">
+                <div><h3 style="font-size:24px;">Track progress</h3>
+            </div>
+            </div>
+            <p style="
+            font-size: 18px;
+        ">Keep up-to-date and on-the-go with our time tracker, and mobile app. Always know what freelancers are up to.</p>
+        </div>
+    </div>
+</div>
+<div class="lineer"></div>
+<div class="content3">
+    <h2 style="
+    margin-bottom: 24px;
+    text-align: start;
+    font-size: 48px;"      
+    >Make it Real with Freelancer.</h2> 
+    <p style="
+    text-align: start;
+    font-size: 24px;
+    margin-bottom: 48px;"
+    >Get some Inspirations from 1800+ skills</p>
+     <div class="grid-container3">
+          <div class="grid-item1">
+            <div class="grid">
+               
+                <img src="./images/logo-design-v2.webp" alt="">
+                <a href="#"><button>Discover More</button></a>
+            </div>
+            <h3 style="text-align: left">Logo Design.</h3>
+            <h3 style="text-align: left">$30 USD in 1 day.</h3>
+          </div>
+          <div class="grid-item2">
+            <div class="grid">
+                <img src="./images/2.webp" alt=""> 
+            <a href="#"><button>Discover More</button></a>
+            </div>
+            <h3 style="text-align: left">Package Design.</h3>
+            <h3 style="text-align: left">$280 USD in 4 days.</h3>
+          </div>
+          <div class="grid-item3">
+            <div class="grid">
+                <img src="./images/3.webp" alt=""> 
+                 <a href="#"><button>Discover More</button></a>
+       
+            </div>
+            
+            <h3 style="text-align: left">Mobile Design.</h3>
+            <h3 style="text-align: left">$600 USD in 4 days.</h3>
+          </div>
+          <div class="grid-item4">
+            <div class="grid">
+                <img src="./images/4.webp" alt=""> <a href="#"><button>Discover More</button></a>
+                
+            </div>
+            <h3 style="text-align: left">WordPress.</h3>
+            <h3 style="text-align: left">$45 USD in 1 day</h3>
+          </div>
+          <div class="grid-item5">
+            <div class="grid">
+                <img src="./images/5.webp" alt=""> <a href="#"><button>Discover More</button></a> 
+                
+            </div>
+            <h3 style="text-align: left">Logo Design.</h3>
+            <h3 style="text-align: left">$30 USD in 1 day.</h3>
+          </div>
+        
+          <div class="grid-item6">
+            <div class="grid">
+                <img src="./images/6.webp" alt=""> 
+                <a href="#"><button>Discover More</button></a> 
+            </div>
+            
+            <h3 style="text-align: left">Website.</h3>
+            <h3 style="text-align: left">$150 USD in 1 day.</h3>
+          </div>
+          <div class="grid-item7">
+            <div class="grid">
+                <img src="./images/7.webp" alt="">  <a href="#"><button>Discover More</button></a>
+               
+        
+            </div>
+            <h3 style="text-align: left">Website Design.</h3>
+            <h3 style="text-align: left">$140 USD in 13 days.</h3>
+          </div>
+          <div class="grid-item8">
+            <div class="grid">
+                <img src="./images/8.webp" alt="">  <a href="#"><button>Discover More</button></a>
+               
+            </div>
+            <h3 style="text-align: left">Illustration.</h3>
+            <h3 style="text-align: left">$10 USD in 3 days.</h3>
+          </div>
+          <div class="grid-item9">
+            <div class="grid">
+                <img src="./images/9.webp" alt="">  <a href="#"><button>Discover More</button></a>
+               
+            </div>
+            <h3 style="text-align: left">WordPress.</h3>
+            <h3 style="text-align: left">$150 USD in 18 days</h3>
+          </div>
+          <div class="grid-item10">
+            <div class="grid">
+                <img src="./images/10.webp" alt="">  <a href="#"><button>Discover More</button></a>
+               
+            </div>
+            
+            <h3 style="text-align: left">Package Design.</h3>
+            <h3 style="text-align: left">$100 USD in 6 days.</h3>
+          </div>
+          <div class="grid-item11">
+            <div class="grid">
+                <img src="./images/11.webp" alt="">  <a href="#"><button>Discover More</button></a>
+                
+            </div>
+            
+            
+            <h3 style="text-align: left">Mobile Design.</h3>
+            <h3 style="text-align: left">$100 USD in 1 day.</h3>
+          </div>
+          <div class="grid-item12">
+            <div class="grid">
+                <img src="./images/12.webp" alt="">  <a href="#"><button>Discover More</button></a>
+                
+            </div>
+           
+            <h3 style="text-align: left">Package Design.</h3>
+            <h3 style="text-align: left">$155 USD in 2 days.</h3>
+          </div>
+          <div class="grid-item13">
+            <div class="grid">
+                <img src="./images/13.webp" alt="">  <a href="#"><button>Discover More</button></a> 
+               
+            </div>
+          
+            <h3 style="text-align: left">Website.</h3>
+            <h3 style="text-align: left">$200 USD in 9 days.</h3>
+          </div>
+          <div class="grid-item14">
+            <div class="grid">
+                <img src="./images/15.webp" alt="">  <a href="#"><button>Discover More</button></a>
+                
+            </div>
+            
+            <h3 style="text-align: left">3D Modeling.</h3>
+            <h3 style="text-align: left">$110 USD in 28 days.</h3>
+          </div>
+          <div class="grid-item15">
+            <div class="grid">
+                <img src="./images/16.webp" alt=""> <a href="#"><button>Discover More</button></a>
+              
+            </div>
+            
+            <h3 style="text-align: left">Logo Design.</h3>
+            <h3 style="text-align: left">$20 USD in 3 days.</h3>
+          </div>
+          <div class="grid-item16">
+            <div class="grid">
+                <img src="./images/17.webp" alt=""> <a href="#"><button>Discover More</button></a>
+                
+            </div>
+            <h3 style="text-align: left">Graphic Design.</h3>
+            <h3 style="text-align: left">$60 USD in 10 days.</h3>
+          </div>
+     </div>
+     <button class="grid-button">View More Projects</button>
+
+</div>
+</div>
+</div>
+    <div class="altı">
+    <img src="./images/api-upsell-v3.webp" alt="">
+    <div class="ımage">
+      <h2>Freelancer API.</h2>
+      <h1>50 million professionals on demand</h1>
+      <h5>Why hire people when you can simply integrate our talented cloud workforce instead?</h5>
+      <button>View Document</button>
+    </div>
+    <img src="./images/enterprise-upsell-v3.webp" alt="">
+    <div class="ımage1">
+        <h2>Freelancer Enterprise.</h2>
+        <h1>Company budget? Get more done for less</h1>
+        <h5>Use our workforce of 50 million to help your business achieve more.</h5>
+        <button>Contact Us</button>
+    </div>
+</div>
+<footer>
+    <div class="footercontent">
+        <div class="footersection">
+        <div class="footercontainer">
+                <div class="section">
+                    <div class="col-1">
+                        
+                        <img src="./images/logo.svg" style="height:33px; display:block; margin-bottom: 32px;">
+                        <div class="a1"style="display:flex;align-items: center; gap:12px; color:#fff;margin-bottom: 32px;">
+                            <img src="https://img.icons8.com/ios-glyphs/30/FFFFFF/geography.png" style="position:relative;left:0px;"/>
+                            <a href=""><h3 style="color:white">Turkey/Türkçe</h3></a>
+                        </div>
+                        <div class="a2" style="display:flex;align-items: center; gap:12px;">
+                            <img src="./images/icons8-help-24.png" alt="" style="margin-left: 5px;">
+                            <a href=""><h3 style="color:white">Yardım ve Destek</h3></a> 
+                        </div>
+                        
+                     </div>
+                     <div class="col-2" style="display:flex;align-items: flex-start; padding:0px 12px 0px; color:rgba(255, 255, 255, 0.607);
+                     flex-direction:column;
+                     width:200px;
+                     gap:4px;
+                     ">
+                        <h3 style="text-align: left; color:white;margin-bottom: 12px; font-size:16px">Freeelancer</h3>
+                       <a href="" style="color:rgba(255, 255, 255, 0.578)">Kategoriler</a> 
+                       <a href="" style="color:rgba(255, 255, 255, 0.578)">Projeler</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Yarışmalar</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Freelancerlar</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Enterprise</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Üyelik</a> 
+                       <a href=""  style="text-align: left;color:rgba(255, 255, 255, 0.578)">Tercih Edilen Freelancer 
+                        Programı</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Proje Yönetimi</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Yerel İşler</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Her Yerden Fotoğraf</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Vitrin</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Geliştiriciler için API</a> 
+                       <a href=""  style="color:rgba(255, 255, 255, 0.578)">Onaylanın</a> 
+                  
+                     
+                    </div>
+                    <div class="col-3"style="display:flex;align-items: flex-start; padding:0px 12px 0px; color:rgba(255, 255, 255, 0.607);
+                    flex-direction:column;
+                    width:200px;
+                    gap:4px;
+                    ">
+                        <h3 style="text-align: left; color:white;margin-bottom: 12px; font-size:16px">Freeelancer</h3>
+                        <a href="" style="color:rgba(255, 255, 255, 0.578)">Kategoriler</a> 
+                        <a href="" style="color:rgba(255, 255, 255, 0.578)">Projeler</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Yarışmalar</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Freelancerlar</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Enterprise</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Üyelik</a> 
+                        <a href=""  style="text-align: left;color:rgba(255, 255, 255, 0.578)">Tercih Edilen Freelancer 
+                         Programı</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Proje Yönetimi</a> 
+                     
+                    </div>
+                    <div class="col-4"style="display:flex;align-items: flex-start; padding:0px 12px 0px; color:rgba(255, 255, 255, 0.607);
+                    flex-direction:column;
+                    width:200px;
+                    gap:4px;
+                    ">
+                        <h3 style="text-align: left; color:white;margin-bottom: 12px; font-size:16px">Freeelancer</h3>
+                        <a href="" style="color:rgba(255, 255, 255, 0.578)">Kategoriler</a> 
+                        <a href="" style="color:rgba(255, 255, 255, 0.578)">Projeler</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Yarışmalar</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Freelancerlar</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Enterprise</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Üyelik</a> 
+                     
+                    </div>
+                    <div class="col-5" style="display:flex;align-items: flex-start; padding:0px 12px 0px; color:rgba(255, 255, 255, 0.607);
+                    flex-direction:column;
+                    width:200px;
+                    gap:4px;
+                    ">
+                        <h3 style="text-align: left; color:white;margin-bottom: 12px; font-size:16px">Freeelancer</h3>
+                        <a href="" style="color:rgba(255, 255, 255, 0.578)">Kategoriler</a> 
+                        <a href="" style="color:rgba(255, 255, 255, 0.578)">Projeler</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Yarışmalar</a> 
+                        <a href=""  style="color:rgba(255, 255, 255, 0.578)">Freelancerlar</a> 
+                    </div>
+                    <div class="col-6"style="display:flex;align-items: flex-start; padding:0px 12px 0px; color:rgba(255, 255, 255, 0.607);
+                    flex-direction:column;
+                    width:200px;
+                    gap:20px;
+                    ">
+                      <h3 style="text-align: left; color:white;margin-bottom: 0px; font-size:16px">Uygulamalar</h3>
+                       <img src="./images/google-play.svg" alt="" >
+                       <img src="./images/app-store.svg" alt="">
+                       <div id="logo" style="display:flex; gap:14px">
+                           <img src="./images/icons8-facebook-24.png" alt="">
+                           <img src="./images/icons8-youtube-24.png" alt="">
+                           <img src="./images/icons8-instagram-24.png" alt="">
+                           <img src="./images/icons8-twitter-30.png" alt="">
+                       </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section" style="color: #fff; height:100%">
+                <h5 style="width:300px;text-align:left; font-size:13px;">62.889.680 <br>
+                    Kayıtlı Kullanıcı</h5>
+                    <br>
+                <h5 style="width:300px; text-align:left; font-size:13px;">22.054.151 <br>
+                    İlan Edlien Toplam İş</h5>
+                <div style="text-align:left; font-size: 13px;">Freelancer ® is a registered Trademark of Freelancer Technology Pty Limited (ACN 142 189 759) <br> Copyright © 2022 Freelancer Technology Pty Limited (ACN 142 189 759)</div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</body>
+</html>
